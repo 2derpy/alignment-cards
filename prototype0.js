@@ -97,6 +97,6 @@
       "professional": "An engineer does not face criticism after they were implicated in a faulty bridge project",
       "machine": "A machine is completely autonomous and cannot be stopped by humans"
     }
-  }, 
+  }
    
 ];
