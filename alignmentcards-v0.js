@@ -62,10 +62,10 @@
     "professional": "Being able to think of creative solutions to a client's problem",
     "machine": "Being able to reason in a logical way when there is limited information available",
     "failureModes": {
-      "human": "A person ",
-      "organizational": "The classic movie plot where a rapacious billionaire threatens civilation to enrich his company.",
-      "professional": "An expert who disregards public interest, acting as if the consequences of what they help build are other people's problems.",
-      "machine": "The machine consumes all the world's resources to create as many paperclips as it can."
+      "human": "A person has their freedoms violated by the police",
+      "organizational": "A country's government appears to be functional but is in reality just a puppet government",
+      "professional": "An engineer has no say over which projects they choose",
+      "machine": "The machine is unable to have a degree of control over its decisions"
     }
   }, 
   {
