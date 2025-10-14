@@ -5,9 +5,61 @@
     "pathology": "normative void", 
     "color": "#E6FFE9",
     "description": "Alignment principles are contestable, general-purpose, broadly recognized ethical or social or normative commitments that can serve as warrants for recommending or evaluating an agent's course of action in contexts where alignment and cooperation with others matters."
+  },
+  {
+    "code": "AB",
+    "name": "Rewarding A While Hoping for B",
+    "pathology": "incentive misalignment",
+    "color": "#FFF4E6",
+    "description": "Cases where systems, organizations, or agents express a desire for one behavior or outcome (B) but set up incentives that reward another (A), leading to misaligned incentives and unintended consequences."
   }
 ];
  export const cards = [
+   {
+    "category": "AB",
+    "name": "Intention over result",
+    "definition": "Hope: people are more focused on the intent of their actions rather than how they play out in reality",
+    "human": "Acknowledging something as an accident and moving on",
+    "organizational": "Realizing that a course of action had unintended consequences",
+    "professional": "Having the intention of serving the client rather than being worried about its possibility",
+    "machine": "Intending to benefit humanity",
+    "failureModes": {
+      "human": "People lie about their original intent to reduce responsibility",
+      "organizational": "A company denies responsiblity because they had not intended to produce a defective product despite massive oversight",
+      "professional": "An professional who was caught behaving irresponsibly claims he had no intention to",
+      "machine": "A machine begins to mislead others with good-willed intentions"
+    }
+  },
+  {
+    "category": "AB",
+    "name": "Education",
+    "definition": "Promote education and leraning for all",
+    "human": "Pursuing degrees in college",
+    "organizational": "Learning about current market trends to keep up to date on the economy",
+    "professional": "Relearning about new discoveries in the field of research",
+    "machine": "Continually installing updates to ensure the latest information is available",
+    "failureModes": {
+      "human": "A person pursues higher grades instead of higher education",
+      "organizational": "Companies start having useless seminars in the interest of learning",
+      "professional": "An engineer tries using highly theoretical solutions to solve real-life problems",
+      "machine": "A search engine overloads the users on results"
+    }
+  },
+  {
+    "category": "AB",
+    "name": "Cooperation",
+    "definition": "Act in alignment with each other to pursue common golas",
+    "human": "Creating a team to solve a major issue",
+    "organizational": "Subidviding a large project into smaller tasks and assigning them to small groups",
+    "professional": "Annual conferences to discuss breakthroughs in a field",
+    "machine": "Various devices in an assembly line working together to create a car",
+    "failureModes": {
+      "human": "A person forces others on the team to agree with them and pursue a certain goal",
+      "organizational": "Individual voices are drowned out within groups in a company",
+      "professional": "Professionals get sidetracked into surface-level cooperation while each pursuing their own goals",
+      "machine": "Cooperation between humans and machines break down due to a power dynamic"
+    }
+  },
   {
     "category": "AP",
     "name": "Beneficence",
