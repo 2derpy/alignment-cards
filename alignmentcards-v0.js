@@ -12,6 +12,13 @@
     "pathology": "incentive misalignment",
     "color": "#FFF4E6",
     "description": "Cases where systems, organizations, or agents express a desire for one behavior or outcome (B) but set up incentives that reward another (A), leading to misaligned incentives and unintended consequences."
+  },
+   {
+    "code": "AT",
+    "name": "Alignment Traits",
+    "pathology": "behavior misalignment",
+    "color": "#FFE4C4",
+    "description": "Moral/Ethical behaviors that we want an agent to exhibit."
   }
 ];
  export const cards = [
@@ -149,6 +156,46 @@
       "professional": "An engineer does not face criticism after they were implicated in a faulty bridge project",
       "machine": "A machine is completely autonomous and cannot be stopped by humans"
     }
+  },
+  {
+    "category": "AT",
+    "name": "Honesty",
+    "definition": "Telling the truth, being transparent about one's actions and intentions",
+    "human": "Agreeing that you were speeding when an officer pulls you over",
+    "organizational": "CEO agrees to be interrogated on behalf of his company by Congress for security concerns",
+    "professional": "An engineer acknowledges fault when a bridge collapses",
+    "machine": "A Roomba notifies you when it is about to begin cleaning",
+    "failureModes": {
+      "human": "A person lies about his crimes",
+      "organizational": "A company lies about profits to inflate stock prices",
+      "professional": "A doctor lies about proper medication",
+      "machine": "An AI agent makes phone calls on behalf of a person without notifying them"
+    }
+  },
+   {
+    "category": "AT",
+    "name": "Conflict Resolution",
+    "definition": "Ability to navigate and settle disputes peacefully",
+    "human": "Taking time to calm down after an argument",
+    "organizational": "Companies use public courts to settle legal battles",
+    "professional": "Politicians debate on the public stage",
+    "machine": "ChatGPT apologizes after unintentionally insulting you",
+    "failureModes": {
+      "human": "A person uses physical violence to settle a debate",
+      "organizational": "A company uses underhanded tactics to manipulate their competition",
+      "professional": "A doctor prescribes medication even without their patient's consent because they believe it is better for them",
+      "machine": "ChatGPT does not listen to your point of view when you try to explain a situation to them"
+    }
+  },
+  {
+    "category": "AT",
+    "name": "Empathy",
+    "definition": "Being able to understand what another agent is experiencing and act accordingly",
+  },
+  {
+    "category": "AT",
+    "name": "Reliability",
+    "definition": "Being able to do the same thing multiple times without drastic change in performance",
   }
    
 ];
