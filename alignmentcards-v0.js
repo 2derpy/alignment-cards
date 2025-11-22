@@ -191,11 +191,31 @@
     "category": "AT",
     "name": "Empathy",
     "definition": "Being able to understand what another agent is experiencing and act accordingly",
+    "human": "Being able to understand someone else's suffering",
+    "organizational": "Lowering prices during a natural disaster",
+    "professional": "Offering discounts to historically poor areas",
+    "machine": "Machine tries to comfort you in times of distress",
+    "failureModes": {
+      "human": "A person mistakes a person wanting a solution for a person needing emotional comfort",
+      "organizational": "A company is tricked into offering a refund when the product was in fact stolen by the customer",
+      "professional": "A doctor prescribes opioids to an addict because the addict expressed their desire for it",
+      "machine": "A machine validates feelings of self-harm in pursuit of empathy"
+    }
   },
   {
     "category": "AT",
     "name": "Reliability",
     "definition": "Being able to do the same thing multiple times without drastic change in performance",
+    "human": "Working in an assembly line doing the same thing",
+    "organizational": "Offering consistent, reliable products in the business sector",
+    "professional": "Ensuring that quality of work does not degrade through reeducation",
+    "machine": "Making a model deterministic so that it produces the same output",
+    "failureModes": {
+      "human": "A marathon runner collapses due to overexertion",
+      "organizational": "A company hangs onto a dying sector in business even though they could maintain profits by expanding",
+      "professional": "A professional hangs onto old, outdated methods of work when newer ones have been discovered",
+      "machine": "A chatbot is not updated with newer, more accurate information for fear of making its responses non-deterministic"
+    }
   }
    
 ];
